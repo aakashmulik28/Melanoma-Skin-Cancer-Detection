@@ -1,25 +1,32 @@
-**Melanoma Skin Cancer Detection**
+# Melanoma Skin Cancer Detection 🩺🔬
 
-Melanoma Skin Cancer Detection is a web application designed to assist users in identifying melanoma skin cancer by analyzing uploaded images. With its intuitive interface and powerful backend, users can quickly upload images of skin lesions and receive predictions about potential melanoma, aiding in early detection and treatment.
+A machine learning project designed to detect **melanoma skin cancer** from medical images using deep learning techniques. The system leverages **Convolutional Neural Networks (CNNs)** to classify skin lesions with high accuracy, providing a valuable tool for early diagnosis and medical research. This project demonstrates the integration of AI in healthcare, combining technical innovation with social impact.
 
-Features
-Image Upload: Users can easily upload images of skin lesions through the user-friendly interface.
-Prediction: The application provides predictions about potential melanoma based on the uploaded images.
-Early Detection: By identifying melanoma early, users can take proactive measures for treatment and prevention.
-Responsive Design: The web application is designed to be responsive, ensuring a seamless experience across different devices.
-Usage
-Upload Image: Click on the "Choose File" button and select an image of the skin lesion you want to analyze.
-Prediction: After uploading the image, click on the "Predict" button to receive a prediction about potential melanoma.
-View Details: If melanoma is detected, users can click on the "View Details" button to learn more about the diagnosis and possible treatment options.
-Technologies Used
-Frontend: HTML, CSS, JavaScript
-Backend: Python (Flask framework)
-Machine Learning: TensorFlow, Scikit-learn
-Deployment: Docker, Heroku
-Installation
+---
 
-Navigate to the project directory: cd melanoma-skin-cancer-detection
+## 🚀 Features
 
-Install dependencies: pip install -r requirements.txt
+- 🖼️ **Image Classification** — Detects melanoma vs. non-melanoma skin lesions
+- 🧠 **Deep Learning Model** — Built using CNNs for feature extraction and classification
+- 📊 **Performance Metrics** — Accuracy, precision, recall, and F1-score evaluation
+- 📈 **Training & Validation** — Dataset split with augmentation for robust learning
+- 🎨 **Interactive UI (Optional)** — Web-based interface for uploading and testing images
+- 🔐 **Secure Handling** — Focus on ethical use of medical datasets
 
-Run the application: python app.py
+---
+
+## 🛠️ Tech Stack
+
+| Layer        | Technology              |
+|--------------|--------------------------|
+| Backend      | Python, TensorFlow/Keras, Flask/Django (optional for deployment) |
+| Frontend     | HTML, CSS, JavaScript (if web UI is included) |
+| Data         | Public medical image datasets (e.g., ISIC Archive) |
+| Tools        | Jupyter Notebook, NumPy, Pandas, Matplotlib, Scikit-learn |
+
+---👨‍💻 Author
+Aakash Chandrakant Mulik
+Aspiring full-stack .NET and Python developer | Passionate about AI in healthcare and cinematic UI/UX
+
+
+## 📂 Folder Structure
