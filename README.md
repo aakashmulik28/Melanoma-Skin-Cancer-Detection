@@ -17,7 +17,6 @@ Backend: Python (Flask framework)
 Machine Learning: TensorFlow, Scikit-learn
 Deployment: Docker, Heroku
 Installation
-Clone the repository: git clone https://github.com/DiwakarNadar/Melonoma_SkinCancer_Detection
 
 Navigate to the project directory: cd melanoma-skin-cancer-detection
 
