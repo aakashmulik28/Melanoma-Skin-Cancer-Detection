@@ -1,0 +1,7 @@
+Flask
+numpy
+opencv-python
+Keras
+joblib
+tensorflow==2.15.0
+gunicorn
